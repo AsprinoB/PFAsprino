@@ -289,17 +289,16 @@ footer {
     }
   }
 }
-/*pag blog */
-// Variables
+
 $primary-color: #0a0a0a;
 $secondary-color: #6c757d;
 
-// Mixin para estilos de texto
+
 @mixin card-text-styles {
   color: $primary-color;
 }
 
-// Mixin para estilos de texto secundario
+
 @mixin card-text-secondary-styles {
   color: $secondary-color;
 }
