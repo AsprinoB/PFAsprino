@@ -127,7 +127,7 @@
     }
   }
 
-$primary-color: #ffffff;
+$primary-color: #f70505;
 $table-border-color: #dee2e6;
 $table-head-background: #f1f1f1;
 
@@ -214,7 +214,7 @@ $image-gallery-button-color: #5e5e5e;
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     
     .card {
@@ -337,7 +337,7 @@ $secondary-color: #6c757d;
 
       @media (max-width: 768px) {
         &-title,
-        &-text,
+        &-texte,
         small {
           color: #fff;
         }

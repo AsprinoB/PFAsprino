@@ -147,7 +147,7 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: #f70505;
   text-decoration: none;
 }
 a:hover {
@@ -193,7 +193,7 @@ tr:first-child {
 .image-gallery .card .card-body .btn:hover {
   background-color: #454545;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .image-gallery {
     flex-direction: column;
   }
@@ -285,7 +285,7 @@ footer .rede img {
   color: #6c757d;
 }
 @media (max-width: 768px) {
-  .container .row .card-title, .container .row .card-text,
+  .container .row .card-title, .container .row .card-texte,
   .container .row .card small {
     color: #fff;
   }
