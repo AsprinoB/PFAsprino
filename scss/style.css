@@ -147,7 +147,7 @@ body {
 }
 
 a {
-  color: #f70505;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover {
@@ -256,48 +256,5 @@ footer .rede img {
   }
   footer .rede img {
     margin: 10px 0;
-  }
-}
-
-.container .row {
-  justify-content: space-between;
-}
-.container .row .card {
-  margin-bottom: 20px;
-  max-width: 1000px;
-  width: 100%;
-}
-.container .row .card img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px 0 0 5px;
-}
-.container .row .card-body {
-  padding: 10px;
-}
-.container .row .card-title {
-  color: #0a0a0a;
-}
-.container .row .card-text {
-  color: #0a0a0a;
-}
-.container .row .card small {
-  color: #6c757d;
-}
-@media (max-width: 768px) {
-  .container .row .card-title, .container .row .card-texte,
-  .container .row .card small {
-    color: #fff;
-  }
-}
-@media (max-width: 768px) {
-  .container .row .col-md-4 {
-    width: 100%;
-  }
-  .container .row .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    order: unset;
   }
 }/*# sourceMappingURL=style.css.map */
